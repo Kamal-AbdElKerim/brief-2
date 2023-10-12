@@ -530,10 +530,13 @@ button{
    
     font-size: 20px;
     /* padding-top: 100px; */
+      text-align: center;
+
   }
   .cn2 p{
    
     font-size: 10px;
+     text-align: center;
   }
   .cn2 a{
    
