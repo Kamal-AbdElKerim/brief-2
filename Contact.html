@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="logo">logo</div>
+         <div class="nav">
+          <a href="index.html"  >Home</a>
+          <a href="Portfolio.html">Portfolio</a>
+          <a href="About.html" >About</a>
+          <a href="Contact.html" class="active">Contact</a>
+      
+         </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <br><br><br><br><br>  <h1 class="h1">Contact</h1><br><br><br>
+        <div class="section">
+         
+             <div >
+                <label for="1">name</label><br>
+                <input type="text" id="1" placeholder="Jhon Doe">
+             </div>     
+             <div>
+                <label for="2">Email</label><br>
+                <input type="email" id="2" placeholder="Jhon@email.com">
+             </div>     
+             <div>
+                <label for="1">Message</label><br>
+                <textarea placeholder="Enter your message here..."  cols="20" rows="5"></textarea>
+             </div>     
+                   
+             <button>Send</button>  
+                      
+
+
+                    
+        </div>
+        <footer>
+            <h3>2022 Company</h3>
+            <h5>Privacy Policy <span>Terms and Conditions</span></h5>
+        </footer>
+   
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+          </script>
+</body>
+</html>

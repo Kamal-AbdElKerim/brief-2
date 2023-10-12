@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Portfolio</title>
+</head>
+<body>
+   
+   
+    <div class="topnav" id="myTopnav">
+        <div class="logo">logo</div>
+         <div class="nav">
+          <a href="index.html"  >Home</a>
+          <a href="Portfolio.html" class="active">Portfolio</a>
+          <a href="About.html">About</a>
+          <a href="Contact.html">Contact</a>
+      
+         </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+        <section id="galleryAll">
+       
+          <div class="gallery">
+            <h1>Portfolio</h1>
+          
+            <img src="/images/po/Sanstitr9.png" alt="Two hands creating a heart and showing the sun">
+            <img src="/images/po/Sanstitre.png" alt="The mountain">
+            <img src="/images/po/titre122.png" alt="a river">
+            <img src="/images/po/titre1278.png" alt="a women with a camera">
+            <img src="/images/po/titre1244.png" alt="a women with a camera">
+            <img style="visibility: hidden;" src="/images/po/titre128.png" alt="a women with a camera">
+            <img src="/images/po/titre128.png" alt="a women with a camera">
+          </div>
+        </section>
+        <footer>
+            <h3>2022 Company</h3>
+            <h5>Privacy Policy <span>Terms and Conditions</span></h5>
+        </footer>
+   
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+          </script>
+</body>
+</html>
