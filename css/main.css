@@ -54,6 +54,7 @@ section{
   width: 81%;
   height: 100vh;
   margin: auto;
+  margin-top: 150px;
   
  
 }
@@ -345,10 +346,16 @@ button{
   overflow: hidden;
   background-color: #0e0e0e;
   display: flex;
-  justify-content: space-between;
-  width: 88%;
-  margin: auto;
-  margin-top: 10px;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ z-index: 222;
+  color: #fff;
+  padding-top: 12px;
+ 
+  /* margin-top: 10px; */
 }
 
 .topnav a {
@@ -360,8 +367,6 @@ button{
   text-decoration: none;
   font-size: 17px;
   margin-left: 30px;
-   
- 
   border: none;
   border-radius: 20px;
 }
@@ -683,4 +688,16 @@ section button {
   padding: 10px;
   color: #f2f2f2;
   font-size: 26px;
+}
+
+.topnav{
+
+  
+}
+
+
+
+
+.abou{
+  margin-top: 150px;
 }
